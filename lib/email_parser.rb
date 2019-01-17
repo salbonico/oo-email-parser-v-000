@@ -13,7 +13,7 @@ end
 
 def parse
 array = @email.split(",")
-if array.length = 0
+if array.length == 0
   array = @email.split(" ")
 end
 return array

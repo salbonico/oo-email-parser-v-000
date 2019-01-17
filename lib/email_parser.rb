@@ -11,7 +11,7 @@ def initialize(email)
   @email = email
 end
 
-def self.parse
+def parse
 array = @email.split(/\s\\,/)
 return array
 end

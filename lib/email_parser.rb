@@ -12,7 +12,10 @@ def initialize(email)
 end
 
 def parse
-array = @email.split(/[\s\\,]/)
+array = @email.split(",")
+if array.length = 0
+  array = @email.split(" ")
+end
 return array
 end
 

@@ -12,7 +12,7 @@ def initialize(email)
 end
 
 def parse
-array = @email.split(/[,|\s]/)
+array = @email.split(/[,\s]/)
 output = []
 array.each do |element|
   if ele

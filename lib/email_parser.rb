@@ -13,10 +13,13 @@ end
 
 def parse
 array = @email.split(/[, ]/)
+output = []
+array.each do |element|
+  if element != ""
+    output.push element
+end
 
-
-
-return array
+return output
 end
 
 

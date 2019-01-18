@@ -18,7 +18,7 @@ array.each do |element|
   if element != ""
     output.push element
 end
-
+end
 return output
 end
 

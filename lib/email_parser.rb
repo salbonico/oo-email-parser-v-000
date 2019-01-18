@@ -12,9 +12,12 @@ def initialize(email)
 end
 
 def parse
-array = @email.split(/[, ]/)
+array = @email.split(/, /)
+output = []
+array.each do |element|
+  if ele
 
-return array
+return output
 end
 
 

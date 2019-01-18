@@ -12,7 +12,7 @@ def initialize(email)
 end
 
 def parse
-array = @email.split(/[, ]/)
+array = @email.split(/[,| ]/)
 
 
 

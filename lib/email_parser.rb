@@ -15,7 +15,7 @@ def parse
 array = @email.split(/[, ]/)
 output = []
 array.each do |element|
-  if element != ""
+  if element != "" && output.include?(element) != false
     output.push element
 end
 end
